@@ -1,0 +1,21 @@
+# all ignore #
+/*
+/.**
+
+# not ignore list
+
+# config
+!/.config/
+!/.config/**
+
+# vim setting file
+!/.vimrc
+
+# iTerm2
+!/iTerm2
+
+# global
+!/README.md
+!/LICENSE
+!.gitignore
+!.gitkeep
