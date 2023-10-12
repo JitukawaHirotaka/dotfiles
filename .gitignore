@@ -10,6 +10,7 @@
 
 # vim setting file
 !/.vimrc
+!/.ideavimrc
 
 # iTerm2
 !/iTerm2

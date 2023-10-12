@@ -6,11 +6,13 @@ cd `dirname $0`
 
 # symbolic link
 ln -sf "$(pwd)"/.vimrc ~/
+ln -sf "$(pwd)"/.ideavimrc ~/
 ln -sf "$(pwd)"/.config/zsh/.zshrc ~/
 ln -sf "$(pwd)"/.config/zsh/rc/alias.zsh ~/
 
 # apply
 source ~/.vimrc
+source ~/.ideavimrc
 source ~/.zshrc
 
 # iTerm2
