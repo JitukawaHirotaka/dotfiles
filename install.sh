@@ -10,6 +10,9 @@ ln -sf "$(pwd)"/.ideavimrc ~/
 ln -sf "$(pwd)"/.config/zsh/.zshrc ~/
 ln -sf "$(pwd)"/.config/zsh/rc/alias.zsh ~/
 
+# brew
+sh "$(pwd)"/install_script/home_brew.sh
+
 # apply
 source ~/.vimrc
 source ~/.ideavimrc

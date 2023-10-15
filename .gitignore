@@ -8,6 +8,10 @@
 !/.config/
 !/.config/**
 
+# install script
+!/install_script/
+!/install_script/**
+
 # vim setting file
 !/.vimrc
 !/.ideavimrc
